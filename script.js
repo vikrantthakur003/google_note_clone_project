@@ -13,8 +13,6 @@ const updateLSData = () => {
   localStorage.setItem("notes", JSON.stringify(notes));
 };
 
-// <!-- SUbSCRIBE THAPA TECHNICAL YOUTUBE CHANNEL https://www.youtube.com/thapatechnical -->
-
 const addNewNote = (text = "") => {
   const note = document.createElement("div");
   note.classList.add("note");
